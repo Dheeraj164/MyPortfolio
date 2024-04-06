@@ -56,7 +56,7 @@ const weatherapp = () => {
         <div className="col-span-4 lg:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center text-2xl font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 lg:grid-cols-1">
+            <div className="grid grid-cols-2 lg:grid-cols-1">
               <p className="text-gray-600 text-xl py-2 flex items-center">
                 <RiRadioButtonFill className="mr-3" /> React
               </p>
@@ -78,10 +78,10 @@ const weatherapp = () => {
             </div>
           </div>
         </div>
-        <Link href="/#project">
-          <p className="underline cursor-pointer">Back</p>
-        </Link>
       </div>
+      <Link href="/#project">
+        <p className="underline cursor-pointer">Back</p>
+      </Link>
     </div>
   );
 };
