@@ -36,7 +36,7 @@ const weatherapp = () => {
               Next.js provides server-side rendering capabilities, enabling
               faster loading times and improved SEO performance. Tailwind CSS
               offers a utility-first approach to styling, allowing for rapid
-              prototyping and easy customization of the app's visual appearance.
+              prototyping and easy customization of the app visual appearance.
             </p>
             <p className="py-2">
               By integrating the openweathermap API, the Weather App fetches

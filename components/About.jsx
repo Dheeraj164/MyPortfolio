@@ -13,8 +13,8 @@ const About = () => {
           </p>
           <h2 className="py-4 ">Who I Am</h2>
           <p className="py-2 text-gray-600 text-lg ">
-            Hello, I'm Dheeraj Kumar Ravi Gowda, a passionate Front End
-            Developer fueled by a Master's in Computer Science from the
+            Hello, I am Dheeraj Kumar Ravi Gowda, a passionate Front End
+            Developer fueled by a Master of Science in Computer Science from the
             University of Central Oklahoma. With a focus on crafting innovative
             solutions to user interface challenges, I bring a blend of
             creativity and technical proficiency to every project. Proficient in
@@ -22,7 +22,7 @@ const About = () => {
             experiences that seamlessly merge aesthetics with functionality.
           </p>
           <p className="py-2 text-gray-600 text-lg ">
-            Beyond academia, I've embarked on numerous development projects,
+            Beyond academia, I have embarked on numerous development projects,
             ranging from stock prediction using LSTM models to crafting
             intuitive mobile applications with Flutter and React JS. With
             certifications in Cloud Web Applications Development and a track

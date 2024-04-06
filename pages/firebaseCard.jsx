@@ -44,11 +44,11 @@ const firebaseCard = () => {
               gameplay, with changes to balances and wins reflected instantly.
               The intuitive user interface, designed with Bootstrap, offers easy
               navigation, allowing players to place bets, monitor their balance,
-              and enjoy the game's excitement effortlessly.nce.
+              and enjoy the game&apos;s excitement effortlessly.nce.
             </p>
             <p className="py-2">
               In essence, the Firebase Game delivers an immersive gaming
-              experience, merging Firebase's robust features with the simplicity
+              experience, merging Firebase robust features with the simplicity
               of front-end technologies. Players can enjoy card games securely
               while keeping track of their progress, creating an engaging and
               dynamic gaming atmosphere.

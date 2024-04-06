@@ -30,7 +30,7 @@ const flutterCard = () => {
               The Flutter Game is a dynamic mobile application crafted with
               Flutter and developed within Android Studio, delivering an
               immersive gaming experience exclusively for Android users. Built
-              with Flutter's cross-platform compatibility in mind, the game
+              with Flutter cross-platform compatibility in mind, the game
               ensures seamless performance across various devices, extending its
               reach to a broader audience of mobile gamers. Featuring
               captivating gameplay mechanics and customizable options, users can
@@ -41,9 +41,9 @@ const flutterCard = () => {
             </p>
             <p className="py-2">
               This synergy between Flutter and Android Studio underscores the
-              game's polished and high-quality design, promising hours of
+              games polished and high-quality design, promising hours of
               entertainment for casual gamers and enthusiasts alike. With
-              Flutter's flexible UI toolkit and Dart's efficient programming
+              Flutter&apos;s flexible UI toolkit and Darts efficient programming
               language at its core, the Flutter Game sets a new standard for
               mobile game development, offering an engaging and enjoyable
               experience that captivates players and keeps them coming back for

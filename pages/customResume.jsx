@@ -49,7 +49,7 @@ const customResume = () => {
               formats, for easy sharing or printing.
             </p>
             <p className="py-2">
-              The integration of Firebase Authentication ensures that users'
+              The integration of Firebase Authentication ensures that users
               personal data and resumes are kept confidential and secure. With
               its user-friendly interface and efficient functionality, the
               Simple Resume Maker provides a convenient solution for individuals

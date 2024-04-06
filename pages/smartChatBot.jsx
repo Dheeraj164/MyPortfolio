@@ -29,14 +29,14 @@ const smartChatBot = () => {
               {" "}
               The Smart ChatBot is a sophisticated conversational AI system
               developed using the OpenAI API, Next.js, and Node.js. Leveraging
-              the power of OpenAI's cutting-edge natural language processing
+              the power of OpenAI cutting-edge natural language processing
               capabilities, the ChatBot engages users in dynamic and
               contextually relevant conversations, offering personalized
               assistance and information retrieval.
             </p>
             <p className="py-2">
               Authentication is seamlessly integrated into the system through
-              Auth0, ensuring secure access to the ChatBot's features and
+              Auth0, ensuring secure access to the ChatBot features and
               maintaining user privacy. Additionally, MongoDB serves as the
               backend database, efficiently storing user data, conversation
               logs, and any other pertinent information for future reference and

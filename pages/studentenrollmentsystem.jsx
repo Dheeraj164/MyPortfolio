@@ -46,7 +46,7 @@ const studentenrollmentsystem = () => {
               information and academic records.
             </p>
             <p className="py-2">
-              The system's architecture is structured to prioritize security and
+              The system architecture is structured to prioritize security and
               data integrity, safeguarding the confidentiality of personal and
               academic information. A responsive design ensures accessibility
               across various devices, contributing to a seamless user experience

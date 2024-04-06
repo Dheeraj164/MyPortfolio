@@ -28,12 +28,12 @@ const photoMemoFlutter = () => {
             <p className="py-2">
               {" "}
               The Flutter-based PhotoMemo app revolutionizes the way users
-              capture and share memories by combining the power of Google's
-              cross-platform UI toolkit with Firebase's robust backend services.
-              With Flutter's extensive widget library, the app offers a visually
-              stunning and highly responsive user interface, ensuring a seamless
-              experience for users across both Android and iOS devices. From
-              navigating through the app to uploading photos and adding
+              capture and share memories by combining the power of Google&apos;s
+              cross-platform UI toolkit with Firebase&apos;s robust backend
+              services. With Flutter extensive widget library, the app offers a
+              visually stunning and highly responsive user interface, ensuring a
+              seamless experience for users across both Android and iOS devices.
+              From navigating through the app to uploading photos and adding
               descriptions, users can effortlessly interact with the PhotoMemo
               app, making it an intuitive and engaging platform for preserving
               cherished memories.
@@ -51,11 +51,11 @@ const photoMemoFlutter = () => {
             <p className="py-2">
               Furthermore, Firebase Firestore serves as the backend database for
               storing crucial information such as photo titles, descriptions,
-              and sharing details. Leveraging Firebase's real-time NoSQL
-              database capabilities, the app delivers fast and efficient data
-              storage and retrieval, enabling users to access their memories
-              instantly. Combined with Firebase Storage for storing photo files
-              in the cloud, the PhotoMemo app ensures reliable access to photos
+              and sharing details. Leveraging Firebase real-time NoSQL database
+              capabilities, the app delivers fast and efficient data storage and
+              retrieval, enabling users to access their memories instantly.
+              Combined with Firebase Storage for storing photo files in the
+              cloud, the PhotoMemo app ensures reliable access to photos
               anytime, anywhere, without the limitations of device storage.
               Overall, the Flutter-based PhotoMemo app provides a seamless and
               consistent user experience, offering a secure and feature-rich
