@@ -31,8 +31,8 @@ const NavBar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100] bg-[#ecf0f3]"
-          : "fixed w-full h-20 z-[100] bg-[#ecf0f3]"
+          ? "fixed w-full h-20 shadow-xl z-[100] "
+          : "fixed w-full h-20 z-[100]"
       }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
@@ -48,29 +48,26 @@ const NavBar = () => {
         <div>
           <ul className="hidden lg:flex">
             <Link href="/">
-              <li onclick className="ml-10 text-md uppercase hover:border-b">
-                Home
-              </li>
+              <li className="ml-10 text-md uppercase hover:border-b">Home</li>
             </Link>
             <Link href="/#about">
-              <li onclick className="ml-10 text-md uppercase hover:border-b">
-                About
-              </li>
+              <li className="ml-10 text-md uppercase hover:border-b">About</li>
             </Link>
             <Link href="/#skills">
-              <li onclick className="ml-10 text-md uppercase hover:border-b">
-                Skills
-              </li>
+              <li className="ml-10 text-md uppercase hover:border-b">Skills</li>
             </Link>
             <Link href="/#projects">
-              <li onclick className="ml-10 text-md uppercase hover:border-b">
+              <li className="ml-10 text-md uppercase hover:border-b">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li onclick className="ml-10 text-md uppercase hover:border-b">
+              <li className="ml-10 text-md uppercase hover:border-b">
                 Contact
               </li>
+            </Link>
+            <Link href="/resume">
+              <li className="ml-10 text-md uppercase hover:border-b">Resume</li>
             </Link>
           </ul>
           <div onClick={hanleNav} className="lg:hidden">
@@ -135,6 +132,11 @@ const NavBar = () => {
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
+                </li>
+              </Link>
+              <Link href="/resume">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Resume
                 </li>
               </Link>
             </ul>

@@ -37,18 +37,28 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect With me</p>
                 <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
-                    <FaLinkedinIn />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
+                  <a
+                    href="https://www.linkedin.com/in/dheeraj164/"
+                    target="_blank">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+                      <FaLinkedinIn />
+                    </div>
+                  </a>
+                  <a href="https://github.com/Dheeraj164" target="_blank">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+                      <FaGithub />
+                    </div>
+                  </a>
+                  <Link href="/#contact">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+                      <AiOutlineMail />
+                    </div>
+                  </Link>
+                  <Link href="/resume">
+                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-115 ease-in duration-300">
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -57,13 +67,14 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-700 rounded-xl lg:p-4">
             <div className="p-4">
-              <form>
+              <form action="https://getform.io/f/pbmqmdnb" method="POST">
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-md py-2">Name</label>
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-100"
                       type="text"
+                      name="name"
                     />
                   </div>
 
@@ -74,6 +85,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-100"
                       type="text"
+                      name="Phone Number"
                     />
                   </div>
                 </div>
@@ -82,6 +94,7 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-100"
                     type="email"
+                    name="Email"
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -89,13 +102,15 @@ const Contact = () => {
                   <input
                     className="border-2 rounded-lg p-3 flex border-gray-100"
                     type="text"
+                    name="Subject"
                   />
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-md py-2">Message</label>
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
-                    rows="10"></textarea>
+                    rows="10"
+                    name="Message"></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message

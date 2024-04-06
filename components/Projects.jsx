@@ -2,9 +2,13 @@ import Image from "next/image";
 import React from "react";
 import LSTM from "../public/assets/Projects/LSTM Stock/DF_and_MA100.png";
 import Photomemo from "../public/assets/Projects/Photomemo.png";
+import Photomemoflutter from "../public/assets/Projects/Photomemoflutter.png";
 import WhereisFirebase from "../public/assets/Projects/Where is firebase/whereisfirebase1.png";
 import ResumeBuilder from "../public/assets/Projects/Resume Builder/home_page.png";
 import smartChatBot from "../public/assets/Projects/Smart Chat Bot/smartChatBot.jpg";
+import weatherapp from "../public/assets/Projects/weatherapp.png";
+import whereisflutter from "../public/assets/Projects/whereisflutter.png";
+import Student_Enrollment_System from "../public/assets/Projects/Student_Enrollment_System.png";
 
 import ProjectTile from "./ProjectTile";
 
@@ -20,14 +24,32 @@ const Projects = () => {
           <ProjectTile
             title="Stock Prediction"
             bacgroundImage={LSTM}
-            Skills="React JavaScript, Python Flask and LSTM model"
+            Skills="ReactJS, JavaScript, Python Flask and LSTM model"
             projectUrl="/stock"
           />
           <ProjectTile
-            title="PhotoMemo App"
-            bacgroundImage={Photomemo}
-            Skills="Vanilla JavaScript and Google Firebase"
-            projectUrl="/photoMemo"
+            title="Weather APP"
+            bacgroundImage={weatherapp}
+            Skills="NextJS, JavaScript and openweathermap API"
+            projectUrl="/weatherapp"
+          />
+          <ProjectTile
+            title="Smart Chat Bot"
+            bacgroundImage={smartChatBot}
+            Skills="NextJS, JavaScript, NodeJS, Mangodb and OpenAI apikey"
+            projectUrl="/smartChatBot"
+          />
+          <ProjectTile
+            title="Student Enrollment System"
+            bacgroundImage={Student_Enrollment_System}
+            Skills="PLSQL, Oracle DB, PHP, SQL, HTML, CSS, Bootstrap"
+            projectUrl="/studentenrollmentsystem"
+          />
+          <ProjectTile
+            title="Where is Flutter Game"
+            bacgroundImage={whereisflutter}
+            Skills="Flutter, Android Studio"
+            projectUrl="/flutterCard"
           />
           <ProjectTile
             title="Firebase Game"
@@ -36,16 +58,23 @@ const Projects = () => {
             projectUrl="/firebaseCard"
           />
           <ProjectTile
-            title="Resume Builder"
-            bacgroundImage={ResumeBuilder}
-            Skills="React JavaScript and Google Firebase"
-            projectUrl="/customResume"
+            title="PhotoMemo App"
+            bacgroundImage={Photomemo}
+            Skills="Vanilla JavaScript and Google Firebase"
+            projectUrl="/photoMemo"
           />
           <ProjectTile
-            title="Smart Chat Bot"
-            bacgroundImage={smartChatBot}
-            Skills="Next JavaScript, NodeJS, Mangodb and OpenAI apikey"
-            projectUrl="/smartChatBot"
+            title="PhotoMemo Flutter App"
+            bacgroundImage={Photomemoflutter}
+            Skills="Flutter, Android Studio and Google Firebase"
+            projectUrl="/photoMemoFlutter"
+          />
+
+          <ProjectTile
+            title="Resume Builder"
+            bacgroundImage={ResumeBuilder}
+            Skills="ReactJS, JavaScript and Google Firebase"
+            projectUrl="/customResume"
           />
         </div>
       </div>

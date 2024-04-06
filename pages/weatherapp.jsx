@@ -1,9 +1,10 @@
-import Image from "next/image";
 import React from "react";
-import LSTM from "../public/assets/Projects/LSTM Stock/DF_and_MA100.png";
+import weather from "../public/assets/Projects/weatherapp.png";
+import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
-const stock = () => {
+
+const weatherapp = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -12,12 +13,11 @@ const stock = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={LSTM}
+          src={weather}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2 ">
-          <h2 className="py-2 text-white">Stock Predicton using LSTM model</h2>
-          <h3> React JavaScript / Python Flask/ BootStrap</h3>
+          <h2 className="py-2 text-white">Weather APP </h2>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid grid-cols-5 gap-8 pt-8">
@@ -27,34 +27,29 @@ const stock = () => {
           <div className="text-lg">
             <p className="py-2">
               {" "}
-              The Stock Prediction web application utilizes an LSTM (Long
-              Short-Term Memory) model for forecasting stock prices. Python
-              Flask serves as the backend framework, fetching historical stock
-              data from Yahoo Finance. This data is processed and utilized to
-              train the LSTM model, which then generates predictions for future
-              stock prices.
+              The Weather App built with Next.js, Tailwind CSS, and the
+              openweathermap API combines the power of modern web development
+              technologies to deliver a sleek and efficient solution for
+              checking weather conditions.
             </p>
             <p className="py-2">
-              Once the predictions are made, Flask converts the relevant
-              information, including the stock data, predicted values, and any
-              visualizations, into a JSON format. This JSON data is then sent to
-              the frontend built with React.js.
+              Next.js provides server-side rendering capabilities, enabling
+              faster loading times and improved SEO performance. Tailwind CSS
+              offers a utility-first approach to styling, allowing for rapid
+              prototyping and easy customization of the app's visual appearance.
             </p>
             <p className="py-2">
-              In the frontend, React.js organizes and displays the received data
-              in a user-friendly manner. Users can view the historical stock
-              data, the predicted future values, and any accompanying
-              visualizations, such as line graphs or candlestick charts. The
-              interface is designed to be intuitive and visually appealing,
-              providing users with valuable insights into the potential trends
-              of the selected stock.
+              By integrating the openweathermap API, the Weather App fetches
+              real-time weather data for various locations worldwide, providing
+              users with accurate and up-to-date information on temperature,
+              humidity, wind speed, and more.
             </p>
 
-            <Link
-              href="https://github.com/Dheeraj164/StockPrediction_usingLSTM_flask_react"
+            <a
+              href="https://github.com/Dheeraj164/WeatherReport"
               target="_blank">
               <button className="px-8 py-4 mt-4 mr-8">code</button>
-            </Link>
+            </a>
             {/* <button className="px-8 py-4 mt-4">demo</button> */}
           </div>
         </div>
@@ -66,19 +61,19 @@ const stock = () => {
                 <RiRadioButtonFill className="mr-3" /> React
               </p>
               <p className="text-gray-600 text-xl py-2 flex items-center">
+                <RiRadioButtonFill className="mr-3" /> Next JS
+              </p>
+              <p className="text-gray-600 text-xl py-2 flex items-center">
                 <RiRadioButtonFill className="mr-3" /> JavaScript
               </p>
               <p className="text-gray-600 text-xl py-2 flex items-center">
-                <RiRadioButtonFill className="mr-3" /> Python Flask
+                <RiRadioButtonFill className="mr-3" /> AXIOS
               </p>
               <p className="text-gray-600 text-xl py-2 flex items-center">
-                <RiRadioButtonFill className="mr-3" /> BootStrap
+                <RiRadioButtonFill className="mr-3" /> Tailwind CSS
               </p>
-              <p className="text-gray-600 text-xl py-2 flex items-center">
-                <RiRadioButtonFill className="mr-3" /> LSTM Model
-              </p>
-              <p className="text-gray-600 text-xl py-2 flex items-center">
-                <RiRadioButtonFill className="mr-3" /> Yahoo Finance
+              <p className="text-gray-600 text-lg py-2 flex items-center">
+                <RiRadioButtonFill className="mr-3" /> openweathermap API
               </p>
             </div>
           </div>
@@ -91,4 +86,4 @@ const stock = () => {
   );
 };
 
-export default stock;
+export default weatherapp;
