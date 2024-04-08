@@ -86,7 +86,7 @@ const photoMemoFlutter = () => {
           </div>
         </div>
       </div>
-      <Link href="/#project">
+      <Link href="/#projects">
         <p className="underline cursor-pointer">Back</p>
       </Link>
     </div>
