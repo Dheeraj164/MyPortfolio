@@ -82,7 +82,7 @@ const smartChatBot = () => {
           </div>
         </div>
       </div>
-      <Link href="/#projects">
+      <Link href="/#project">
         <p className="underline cursor-pointer">Back</p>
       </Link>
     </div>
