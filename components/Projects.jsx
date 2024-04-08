@@ -14,7 +14,7 @@ import ProjectTile from "./ProjectTile";
 
 const Projects = () => {
   return (
-    <div id="project" className="w-full items-center justify-center">
+    <div id="projects" className="w-full items-center justify-center">
       <div className=" mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
