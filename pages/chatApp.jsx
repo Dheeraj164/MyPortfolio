@@ -26,30 +26,27 @@ const chatApp = () => {
           <h2>Overview</h2>
           <div className="text-lg">
             <p className="py-2">
-              🚀 Passionate Mobile App Developer: Hi there! I'm [Your Name], a
-              mobile app developer with a passion for creating captivating user
-              experiences. My expertise lies in leveraging Flutter for crafting
-              sleek UI designs that elevate your app's appeal. With a keen eye
-              for detail and a commitment to excellence, I specialize in
-              bringing your vision to life with pixel-perfect precision.
+              <b>Built a Real-Time Chat App with Flutter and Firebase</b> {"  "}
+              I created a mobile chat application using Flutter for a smooth and
+              attractive user interface. To ensure secure login and user
+              management, I implemented Firebase Authentication. Additionally, I
+              integrated Google Auth Provider for a familiar and convenient
+              login experience.
             </p>
             <p className="py-2">
-              🔐 Firebase Integration Specialist: Security and reliability are
-              at the core of every app I build. Through seamless integration
-              with Firebase, I ensure robust authentication solutions that keep
-              user data safe while providing a seamless login experience.
-              Whether it's implementing email/password authentication or
-              enabling Google Authentication, I prioritize user security without
-              compromising on usability.
+              <b>Efficient Messaging and Clear History</b>
+              {"  "}
+              For real-time chat functionality, I utilized Firebase Firestore to
+              efficiently store and retrieve messages. The app is designed to
+              display messages with timestamps and usernames, providing a clear
+              conversation history.
             </p>
             <p className="py-2">
-              💬 Real-Time Chat Solutions: Engage your users like never before
-              with real-time chat functionality powered by Firebase Firestore. I
-              leverage Firestore's capabilities to store and retrieve messages
-              instantly, enabling dynamic conversations that keep users
-              connected. With efficient timestamp management and user-centric
-              design, I create chat experiences that captivate users and drive
-              engagement.
+              <b>Demonstrated Skills</b>
+              {"  "}
+              This project showcases my expertise in mobile app development
+              using Flutter, Firebase integration for authentication and
+              database management, and designing real-time chat applications.
             </p>
           </div>
           <Link
