@@ -4,6 +4,7 @@ import LSTM from "../public/assets/Projects/LSTM Stock/DF_and_MA100.png";
 import Photomemo from "../public/assets/Projects/Photomemo.png";
 import Photomemoflutter from "../public/assets/Projects/Photomemoflutter.png";
 import WhereisFirebase from "../public/assets/Projects/Where is firebase/whereisfirebase1.png";
+import ChatApp from "../public/assets/Projects/ChatApp/ChatAppChat.png";
 import ResumeBuilder from "../public/assets/Projects/Resume Builder/home_page.png";
 import smartChatBot from "../public/assets/Projects/Smart Chat Bot/smartChatBot.jpg";
 import weatherapp from "../public/assets/Projects/weatherapp.png";
@@ -21,6 +22,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8 w-auto h-auto">
+          <ProjectTile
+            title="Chat APP"
+            bacgroundImage={ChatApp}
+            Skills="Flutter, Dart, Google Firebase Auth and Firestore"
+            projectUrl="/chatApp"
+          />
           <ProjectTile
             title="Stock Prediction"
             bacgroundImage={LSTM}

@@ -1,5 +1,4 @@
 import React from "react";
-import LSTM from "../public/assets/Projects/LSTM Stock/DF_and_MA100.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -11,7 +10,6 @@ const ProjectTile = (props) => {
           <Image
             className="rounded-xl group-hover:opacity-10"
             src={props.bacgroundImage}
-            height="900"
             alt="/"
           />
           <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
