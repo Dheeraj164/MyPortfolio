@@ -50,7 +50,9 @@ const weatherapp = () => {
               target="_blank">
               <button className="px-8 py-4 mt-4 mr-8">code</button>
             </a>
-            {/* <button className="px-8 py-4 mt-4">demo</button> */}
+            <a href="https://weather-report-smoky.vercel.app/" target="_blank">
+              <button className="px-8 py-4 mt-4">demo</button>
+            </a>
           </div>
         </div>
         <div className="col-span-4 lg:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
