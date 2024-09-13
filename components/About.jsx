@@ -18,9 +18,10 @@ const About = () => {
             University of Central Oklahoma. Specializing in React.js for web
             development and React Native for mobile apps, I focus on crafting
             innovative solutions to user interface challenges. With proficiency
-            in HTML, CSS, JavaScript, and a growing knowledge of backend
-            development with Node.js, I strive to create captivating digital
-            experiences that seamlessly merge aesthetics with functionality.
+            in HTML, CSS, JavaScript, TypeScript and a growing knowledge of
+            backend development with Node.js, I strive to create captivating
+            digital experiences that seamlessly merge aesthetics with
+            functionality.
           </p>
           <p className="py-2 text-gray-600 text-lg ">
             Beyond academia, I have undertaken several development projects,

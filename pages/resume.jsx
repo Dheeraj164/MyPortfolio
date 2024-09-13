@@ -32,41 +32,41 @@ const resume = () => {
             </a>
           </div>
         </div>
-        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
-          <div className="hidden sm:block">
-            <p>
-              Proven Leadership <span className="px-1">|</span> Web Development{" "}
-            </p>
-          </div>
-          <div className="block sm:hidden">
-            <p>Proven Leadership</p>
-            <p className="py-2">Web Development</p>
-          </div>
+        <div className="my-10">
+          <p className="mt-5">
+            A passionate Front-End Developer with a Master of Science in
+            Computer Science from the University of Central Oklahoma.
+            Specializing in React.js for web development and React Native for
+            mobile apps, I focus on crafting innovative solutions to user
+            interface challenges. With proficiency in HTML, CSS, JavaScript,
+            TypeScript and a growing knowledge of backend development with
+            Node.js, I strive to create captivating digital experiences that
+            seamlessly merge aesthetics with functionality.
+          </p>
         </div>
-        <p>
-          As a front-end web developer, I specialize in crafting outstanding
-          digital experiences. My current focus revolves around developing
-          responsive front-end web applications while simultaneously expanding
-          my knowledge of back-end technologies.
-        </p>
 
         {/* Skills */}
         <div className="text-center py-4">
           <h5 className="text-center underline text-[18px] py-2">Skills</h5>
           <p className="py-2">
             <span className="font-bold">Technical Skills</span>
-            <span className="px-2">|</span>Front-End Web Developer
+            <span className="px-2">|</span>Front-End Developer
             <span className="px-2">|</span> HTML
             <span className="px-2">|</span>CSS
-            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>JavaScript
+            <span className="px-2">|</span>TypeScript
             <span className="px-2">|</span>React
+            <span className="px-2">|</span>React Native
             <span className="px-2">|</span>Next JS
+            <span className="px-2">|</span>Dart
+            <span className="px-2">|</span>FLutter
+            <span className="px-2">|</span>Expo Navigation
             <span className="px-2">|</span>SQL
             <span className="px-2">|</span>NoSQL
+            <span className="px-2">|</span>Firebase
+            <span className="px-2">|</span>MangoDB
+            <span className="px-2">|</span>Auth0
             <span className="px-2">|</span>Tailwind
-            <span className="px-2">|</span> Firebase
-            <span className="px-2">|</span> MangoDB
-            <span className="px-2">|</span> Auth0
           </p>
         </div>
 
@@ -84,8 +84,9 @@ const resume = () => {
           <p className="py-1 italic">Teaching Assistant (2023 - Current)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Assisted Professor Hong Sung in Front End Web Development course,
-              grading assignments and assisting in exam invigilation.
+              Assisted Professor Hong Sung in Front End Web Development course
+              and Mobile Application Development, grading assignments and
+              assisting in exam invigilation.
             </li>
             <li>
               Demonstrated exceptional organizational skills, effectively
@@ -135,7 +136,7 @@ const resume = () => {
             <li> ReactNative- The Practical Guide [2024], Issued by Udemy</li>
             <li>
               President’s Honor Roll - University of Central Oklahoma, Spring
-              2023 and Fall 2023.
+              2023, Fall 2023 and Spring 2024.
             </li>
             <li>
               Flutter Mobile Applications Development, Issued by the University
