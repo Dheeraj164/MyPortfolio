@@ -50,11 +50,6 @@ const stock = () => {
               of the selected stock.
             </p>
 
-            <Link
-              href="https://github.com/Dheeraj164/StockPrediction_usingLSTM_flask_react"
-              target="_blank">
-              <button className="px-8 py-4 mt-4 mr-8">code</button>
-            </Link>
             {/* <button className="px-8 py-4 mt-4">demo</button> */}
           </div>
         </div>

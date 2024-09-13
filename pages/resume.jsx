@@ -132,9 +132,14 @@ const resume = () => {
             Certifications
           </h5>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
+            <li> ReactNative- The Practical Guide [2024], Issued by Udemy</li>
             <li>
               President’s Honor Roll - University of Central Oklahoma, Spring
               2023 and Fall 2023.
+            </li>
+            <li>
+              Flutter Mobile Applications Development, Issued by the University
+              of Central Oklahoma.
             </li>
             <li>
               Cloud Web Applications Development, Issued by the University of

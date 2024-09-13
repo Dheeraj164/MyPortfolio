@@ -8,6 +8,9 @@ import ChatApp from "../public/assets/Projects/ChatApp/ChatAppChat.png";
 import ResumeBuilder from "../public/assets/Projects/Resume Builder/home_page.png";
 import smartChatBot from "../public/assets/Projects/Smart Chat Bot/smartChatBot.jpg";
 import weatherapp from "../public/assets/Projects/weatherapp.png";
+import MealsApp from "../public/assets/React native/MealsApp.png";
+import Guessgame from "../public/assets/React native/Guessgame.png";
+import ExpensesTracker from "../public/assets/React native/ExpensesTracker.png";
 import whereisflutter from "../public/assets/Projects/whereisflutter.png";
 import Student_Enrollment_System from "../public/assets/Projects/Student_Enrollment_System.png";
 
@@ -16,12 +19,37 @@ import ProjectTile from "./ProjectTile";
 const Projects = () => {
   return (
     <div id="project" className="w-full items-center justify-center">
-      <div className=" mx-auto px-2 py-16">
+      <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8 w-auto h-auto">
+          <ProjectTile
+            title="Guess Game APP"
+            bacgroundImage={Guessgame}
+            Skills="React Native, Native Wind, Single Screen Application, MVC Architecture, "
+            projectUrl="/chatApp"
+          />
+          {/* <ProjectTile
+            title="Memory Collector App"
+            bacgroundImage={ChatApp}
+            Skills="React Native, Native Wind, Expo Navigation, Nested Navigator, MVC Architecture"
+            projectUrl="/chatApp"
+          /> */}
+          <ProjectTile
+            title="Expenses Tracker App"
+            bacgroundImage={ExpensesTracker}
+            Skills="React Native, Native Wind, Expo Navigation, Nested Navigator, MVC Architecture"
+            projectUrl="/chatApp"
+          />
+          <ProjectTile
+            title="Meals App"
+            bacgroundImage={MealsApp}
+            Skills="React Native, Native Wind, Expo Navigation, Nested Navigator, MVC Architecture"
+            projectUrl="/chatApp"
+          />
+
           <ProjectTile
             title="Chat APP"
             bacgroundImage={ChatApp}

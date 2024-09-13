@@ -10,7 +10,7 @@ const ProjectTile = (props) => {
           <Image
             className="rounded-xl group-hover:opacity-10"
             src={props.bacgroundImage}
-            alt="/"
+            alt={`/${props.bacgroundImage}`}
           />
           <div className="hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
             <h3 className="text-2xl text-white tracking-wider text-center">

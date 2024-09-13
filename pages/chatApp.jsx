@@ -49,11 +49,6 @@ const chatApp = () => {
               database management, and designing real-time chat applications.
             </p>
           </div>
-          <Link
-            href="https://github.com/Dheeraj164/ChatApp-using-Flutter"
-            target="_blank">
-            <button className="px-8 py-4 mt-4 mr-8">code</button>
-          </Link>
         </div>
         <div className="col-span-4 lg:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
