@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiArrowDropLeftLine, RiRadioButtonFill } from "react-icons/ri";
 
-const chatApp = () => {
+const authentication = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -86,4 +86,4 @@ const chatApp = () => {
   );
 };
 
-export default chatApp;
+export default authentication;
