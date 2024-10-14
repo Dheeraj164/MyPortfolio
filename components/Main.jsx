@@ -1,9 +1,5 @@
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import Link from "next/link";
-import ChatApp from "../public/assets/Projects/ChatApp/ChatAppChat.png";
+
 import Image from "next/image";
 import Profile from "../public/assets/profile.jpeg";
 import SocialMedia from "./SocialMedia";
@@ -19,6 +15,7 @@ function Main() {
               src={Profile}
               height={200}
               width={200}
+              alt="profile"
             />
           </div>
           <h1 className="py-w text-gray-700">

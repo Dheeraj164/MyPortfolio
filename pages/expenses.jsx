@@ -44,12 +44,12 @@ const Expenses = () => {
               robust type safety. Expo Navigation: Implemented for nested
               routing between Stack and Tab Navigation, providing a seamless
               navigation experience. React Context & React Reducer: Utilized for
-              efficient state management, ensuring that the app's data flow is
-              both maintainable and scalable. Outcome: The Expense Tracker App
-              offers a user-friendly way to monitor spending, update records,
-              and stay on top of personal finances. With a clean interface and
-              reliable performance, the app serves as an essential tool for
-              budget management.
+              efficient state management, ensuring that the app&apos;s data flow
+              is both maintainable and scalable. Outcome: The Expense Tracker
+              App offers a user-friendly way to monitor spending, update
+              records, and stay on top of personal finances. With a clean
+              interface and reliable performance, the app serves as an essential
+              tool for budget management.
             </p>
           </div>
         </div>
