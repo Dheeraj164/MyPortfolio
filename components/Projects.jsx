@@ -11,6 +11,7 @@ import weatherapp from "../public/assets/Projects/weatherapp.png";
 import MealsApp from "../public/assets/React native/MealsApp.png";
 import Guessgame from "../public/assets/React native/Guessgame.png";
 import ExpensesTracker from "../public/assets/React native/ExpensesTracker.png";
+import Authentications_loginPage from "../public/assets/React native/Authentications_loginPage.png";
 import whereisflutter from "../public/assets/Projects/whereisflutter.png";
 import Student_Enrollment_System from "../public/assets/Projects/Student_Enrollment_System.png";
 
@@ -29,25 +30,25 @@ const Projects = () => {
             title="Guess Game APP"
             bacgroundImage={Guessgame}
             Skills="React Native, Native Wind, Single Screen Application, MVC Architecture, "
-            projectUrl="/chatApp"
+            projectUrl="/guessGame"
           />
-          {/* <ProjectTile
-            title="Memory Collector App"
-            bacgroundImage={ChatApp}
-            Skills="React Native, Native Wind, Expo Navigation, Nested Navigator, MVC Architecture"
-            projectUrl="/chatApp"
-          /> */}
+          <ProjectTile
+            title="Authentication App"
+            bacgroundImage={Authentications_loginPage}
+            Skills="React Native, Native Wind,   React Native Firebase, Expo Navigation, Nested Navigator, MVC Architecture, React Native AsyncStorage"
+            projectUrl="/authentication"
+          />
           <ProjectTile
             title="Expenses Tracker App"
             bacgroundImage={ExpensesTracker}
             Skills="React Native, Native Wind, Expo Navigation, Nested Navigator, MVC Architecture"
-            projectUrl="/chatApp"
+            projectUrl="/expenses"
           />
           <ProjectTile
             title="Meals App"
             bacgroundImage={MealsApp}
             Skills="React Native, Native Wind, Expo Navigation, Nested Navigator, MVC Architecture"
-            projectUrl="/chatApp"
+            projectUrl="/mealsApp"
           />
 
           <ProjectTile
@@ -55,6 +56,19 @@ const Projects = () => {
             bacgroundImage={ChatApp}
             Skills="Flutter, Dart, Google Firebase Auth and Firestore"
             projectUrl="/chatApp"
+          />
+          <ProjectTile
+            title="PhotoMemo Flutter App"
+            bacgroundImage={Photomemoflutter}
+            Skills="Flutter, Android Studio and Google Firebase"
+            projectUrl="/photoMemoFlutter"
+          />
+
+          <ProjectTile
+            title="Where is Flutter Game"
+            bacgroundImage={whereisflutter}
+            Skills="Flutter, Android Studio"
+            projectUrl="/flutterCard"
           />
           <ProjectTile
             title="Stock Prediction"
@@ -80,12 +94,7 @@ const Projects = () => {
             Skills="PLSQL, Oracle DB, PHP, SQL, HTML, CSS, Bootstrap"
             projectUrl="/studentenrollmentsystem"
           />
-          <ProjectTile
-            title="Where is Flutter Game"
-            bacgroundImage={whereisflutter}
-            Skills="Flutter, Android Studio"
-            projectUrl="/flutterCard"
-          />
+
           <ProjectTile
             title="Firebase Game"
             bacgroundImage={WhereisFirebase}
@@ -97,12 +106,6 @@ const Projects = () => {
             bacgroundImage={Photomemo}
             Skills="Vanilla JavaScript and Google Firebase"
             projectUrl="/photoMemo"
-          />
-          <ProjectTile
-            title="PhotoMemo Flutter App"
-            bacgroundImage={Photomemoflutter}
-            Skills="Flutter, Android Studio and Google Firebase"
-            projectUrl="/photoMemoFlutter"
           />
 
           <ProjectTile

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { RiRadioButtonFill } from "react-icons/ri";
+import { RiArrowDropLeftLine, RiRadioButtonFill } from "react-icons/ri";
 import whereisflutter from "../public/assets/Projects/whereisflutter.png";
 
 const flutterCard = () => {
@@ -66,7 +66,10 @@ const flutterCard = () => {
         </div>
       </div>
       <Link href="/#project">
-        <p className="underline cursor-pointer">Back</p>
+        <div className="flex">
+          <RiArrowDropLeftLine className="mt-1.5 underline cursor-pointer" />
+          <p className="underline cursor-pointer">Back</p>
+        </div>
       </Link>
     </div>
   );

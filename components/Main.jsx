@@ -6,6 +6,7 @@ import Link from "next/link";
 import ChatApp from "../public/assets/Projects/ChatApp/ChatAppChat.png";
 import Image from "next/image";
 import Profile from "../public/assets/profile.jpeg";
+import SocialMedia from "./SocialMedia";
 
 function Main() {
   return (
@@ -33,28 +34,7 @@ function Main() {
             of backend technologies, specifically learning Node.js to enhance my
             full-stack development skills
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <a href="https://www.linkedin.com/in/dheeraj164/" target="_blank">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 hover:bg-blue-400 ease-in duration-300">
-                <FaLinkedinIn />
-              </div>
-            </a>
-            <a href="https://github.com/Dheeraj164" target="_blank">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 hover:bg-blue-400 ease-in duration-300">
-                <FaGithub />
-              </div>
-            </a>
-            <Link href="/#contact">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 hover:bg-blue-400 ease-in duration-300">
-                <AiOutlineMail />
-              </div>
-            </Link>
-            <Link href="/resume">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-105 hover:bg-blue-400 ease-in duration-300">
-                <BsFillPersonLinesFill />
-              </div>
-            </Link>
-          </div>
+          <SocialMedia />
         </div>
       </div>
     </div>
