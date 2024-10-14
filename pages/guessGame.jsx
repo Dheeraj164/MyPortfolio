@@ -35,15 +35,15 @@ const guessGameApp = () => {
               accordingly until it finds the correct number. Key Features:
               Technologies: Built with React Native, Expo, and TypeScript for a
               responsive cross-platform experience. Architecture: Followed the
-              Model-View-Controller (MVC) pattern for better code organization
-              and maintainability. Single-Page Application: Designed as an SPA
-              for smooth user interaction without page reloads. Reusable
-              Components: Created flexible Button and Card components for
-              consistent UI design across the app. User-Centric Design: Focused
-              on delivering an intuitive interface and smooth gameplay
-              experience. This project showcases my ability to build
-              user-friendly applications with a strong emphasis on design
-              patterns, code reusability, and modern front-end technologies.
+              Model-View-Controller pattern for better code organization and
+              maintainability. Single-Page Application: Designed as an SPA for
+              smooth user interaction without page reloads. Reusable Components:
+              Created flexible Button and Card components for consistent UI
+              design across the app. User-Centric Design: Focused on delivering
+              an intuitive interface and smooth gameplay experience. This
+              project showcases my ability to build user-friendly applications
+              with a strong emphasis on design patterns, code reusability, and
+              modern front-end technologies.
             </p>
           </div>
         </div>
