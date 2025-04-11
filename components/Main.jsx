@@ -10,13 +10,13 @@ function Main() {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <div className="items-center flex justify-center">
-            <Image
+            {/* <Image
               className="border border-black rounded-full bg-white hover:scale-105 ease-in duration-300"
               src={Profile}
               height={200}
               width={200}
               alt="profile"
-            />
+            /> */}
           </div>
           <h1 className="py-w text-gray-700">
             Hi, I&apos;m
