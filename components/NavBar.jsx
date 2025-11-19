@@ -56,6 +56,11 @@ const NavBar = () => {
             <Link href="/#skills">
               <li className="ml-10 text-md uppercase hover:border-b">Skills</li>
             </Link>
+            <Link href="/#experience">
+              <li className="ml-10 text-md uppercase hover:border-b">
+                Experience
+              </li>
+            </Link>
             <Link href="/#project">
               <li className="ml-10 text-md uppercase hover:border-b">
                 Projects
@@ -66,9 +71,9 @@ const NavBar = () => {
                 Contact
               </li>
             </Link>
-            <Link href="/resume">
+            {/* <Link href="/resume">
               <li className="ml-10 text-md uppercase hover:border-b">Resume</li>
-            </Link>
+            </Link> */}
           </ul>
           <div onClick={hanleNav} className="lg:hidden">
             <AiOutlineMenu size={25} />

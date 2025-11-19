@@ -3,8 +3,8 @@ import SkillsTile from "./SkillsTiles";
 
 const Skills = () => {
   return (
-    <div id="skills" className="w-full ">
-      <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
+    <div id="skills" className="w-full pt-14">
+      <div className="max-w-[1240px] mx-auto my-14 flex flex-col justify-center h-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Skills
         </p>
@@ -13,13 +13,16 @@ const Skills = () => {
           <SkillsTile title="html" />
           <SkillsTile title="css" />
           <SkillsTile title="javascript" />
-          <SkillsTile title="react" />
-          <SkillsTile title="flutter" />
           <SkillsTile title="nodejs" />
-          <SkillsTile title="mongodb" />
-          <SkillsTile title="firebase" />
+          <SkillsTile title="react" />
+          <SkillsTile title="AWS" />
           <SkillsTile title="github" />
-          <SkillsTile title="tailwindcss" />
+          <SkillsTile title="firebase" />
+          <SkillsTile title="react native" />
+          <SkillsTile title="expo" />
+          <SkillsTile title="flutter" />
+          <SkillsTile title="mongodb" />
+          <SkillsTile title="tailwind css" />
         </div>
       </div>
     </div>

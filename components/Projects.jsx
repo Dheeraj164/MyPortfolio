@@ -7,6 +7,7 @@ import WhereisFirebase from "../public/assets/Projects/Where is firebase/whereis
 import ChatApp from "../public/assets/Projects/ChatApp/ChatAppChat.png";
 import ResumeBuilder from "../public/assets/Projects/Resume Builder/home_page.png";
 import smartChatBot from "../public/assets/Projects/Smart Chat Bot/smartChatBot.jpg";
+import ExpenseTracker from "../public/assets/Projects/ExpenseTracker/expense dashboard.png";
 import weatherapp from "../public/assets/Projects/weatherapp.png";
 import MealsApp from "../public/assets/React native/MealsApp.png";
 import Guessgame from "../public/assets/React native/Guessgame.png";
@@ -19,13 +20,19 @@ import ProjectTile from "./ProjectTile";
 
 const Projects = () => {
   return (
-    <div id="project" className="w-full items-center justify-center">
+    <div id="project" className="w-full items-center justify-center pt-14">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8 w-auto h-auto">
+          <ProjectTile
+            title="Expense Tracker App "
+            bacgroundImage={ExpenseTracker}
+            Skills="React, NextJS, AWS, MVC Architecture,"
+            projectUrl="/expenseTracker"
+          />
           <ProjectTile
             title="Guess Game APP"
             bacgroundImage={Guessgame}
