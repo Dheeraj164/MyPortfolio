@@ -7,6 +7,7 @@ import Image from "next/image";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+  const [selectedNav, setSelectedNav] = useState("/");
   const [shadow, setShadow] = useState(false);
 
   useEffect(() => {
@@ -24,9 +25,6 @@ const NavBar = () => {
     setNav(!nav);
   };
 
-  const loaderProp = ({ src }) => {
-    return src;
-  };
   return (
     <div
       className={
@@ -36,38 +34,64 @@ const NavBar = () => {
       }>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/assets/logo.jpeg"
-            alt="/"
-            width="87"
-            height="35"
-            loader={loaderProp}
-          />
+          <Image src="/assets/logo2.jpeg" alt="/" width={65} height={50} />
         </Link>
 
         <div>
           <ul className="hidden lg:flex">
             <Link href="/">
-              <li className="ml-10 text-md uppercase hover:border-b">Home</li>
+              <li
+                onClick={() => setSelectedNav("/")}
+                className={`ml-10 text-md uppercase hover:border-b ${
+                  selectedNav === "/" ? " border-b-2 border-black" : ""
+                }`}>
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-md uppercase hover:border-b">About</li>
+              <li
+                onClick={() => setSelectedNav("/#about")}
+                className={`ml-10 text-md uppercase hover:border-b ${
+                  selectedNav === "/#about" ? " border-b-2 border-black" : ""
+                }`}>
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-md uppercase hover:border-b">Skills</li>
+              <li
+                onClick={() => setSelectedNav("/#skills")}
+                className={`ml-10 text-md uppercase hover:border-b ${
+                  selectedNav === "/#skills" ? " border-b-2 border-black" : ""
+                }`}>
+                Skills
+              </li>
             </Link>
             <Link href="/#experience">
-              <li className="ml-10 text-md uppercase hover:border-b">
+              <li
+                onClick={() => setSelectedNav("/#experience")}
+                className={`ml-10 text-md uppercase hover:border-b ${
+                  selectedNav === "/#experience"
+                    ? " border-b-2 border-black"
+                    : ""
+                }`}>
                 Experience
               </li>
             </Link>
             <Link href="/#project">
-              <li className="ml-10 text-md uppercase hover:border-b">
+              <li
+                onClick={() => setSelectedNav("/#project")}
+                className={`ml-10 text-md uppercase hover:border-b ${
+                  selectedNav === "/#project" ? " border-b-2 border-black" : ""
+                }`}>
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-md uppercase hover:border-b">
+              <li
+                onClick={() => setSelectedNav("/#contact")}
+                className={`ml-10 text-md uppercase hover:border-b ${
+                  selectedNav === "/#contact" ? " border-b-2 border-black" : ""
+                }`}>
                 Contact
               </li>
             </Link>
@@ -92,13 +116,7 @@ const NavBar = () => {
           }>
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image
-                src="/assets/logo.jpeg"
-                alt="/"
-                width="87"
-                height="35"
-                loader={loaderProp}
-              />
+              <Image src="/assets/logo2.jpeg" alt="/" width="87" height="35" />
               <div
                 onClick={hanleNav}
                 className="rounded-full shadow-lg shadow-grey-400 p-3 cursor-pointer">

@@ -7,14 +7,14 @@ const SkillsTile = ({ title }) => {
       <div className=" grid grid-cols-2 gap-4 justify-center items-center">
         <div className="m-auto">
           <Image
-            src={`/assets/skills/${title}.svg`}
+            src={`/assets/skills/${title.toLowerCase()}.svg`}
             alt="/"
             width="64"
             height="64"
           />
         </div>
-        <div className="flex felx-col items-center justify-center">
-          <h3 className="uppercase">{title}</h3>
+        <div className="flex felx-col items-center justify-start">
+          <h3>{title.toLowerCase() !== "apple" ? title : "Apple (iOS)"}</h3>
         </div>
       </div>
     </div>
