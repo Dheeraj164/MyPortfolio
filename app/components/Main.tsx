@@ -23,15 +23,13 @@ function Main() {
             <span className="text-[#5651e5]"> Dheeraj Kumar Ravi Gowda</span>
           </h1>
           <h1 className="py-w text-6xl font-bold text-gray-700 ">
-            A Front-End Developer
+            I build fast, scalable web & mobile apps
           </h1>
           <p className="text-bold text-lg py-3 text-gray-600 max-w-[70%] m-auto">
-            As a front-end developer, I specialize in creating exceptional
-            digital experiences for both web and mobile platforms.My expertise
-            lies in building responsive web applications with React.js and
-            mobile apps with React Native. I&apos;m also expanding my knowledge
-            of backend technologies, specifically learning Node.js to enhance my
-            full-stack development skills
+            Full-Stack Engineer building scalable SaaS on the cloud. I architect
+            serverless applications and subscription platforms using Next.js,
+            TypeScript, and AWS from Lambda to DynamoDB to CloudFront.
+            US-educated. India-based. Remote-ready.
           </p>
           <SocialMedia />
         </div>

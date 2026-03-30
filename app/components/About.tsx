@@ -18,8 +18,35 @@ const About = () => {
 
         {/* Text column */}
         <div className="lg:col-span-7">
-          <p className="mb-4 leading-relaxed ">
-            Hi — I’m <strong>Dheeraj Kumar Ravi Gowda</strong>. I’m a Front-End
+          {[
+            <>
+              I&apos;m {<strong>Dheeraj Kumar Ravi Gowda</strong>} a Full Stack
+              Developer with a Master of Science in Computer Science. I build
+              complete products: responsive web apps with React and Next.js,
+              mobile apps with React Native, and backend systems with Node.js,
+              AWS Lambda, DynamoDB, and Supabase
+            </>,
+            <>
+              I&apos;ve shipped production apps across the full stack a
+              serverless expense platform on AWS with Cognito authentication and
+              CloudFront delivery, a real-time screen-sharing system using
+              WebRTC and peer-to-peer streaming, and multiple mobile
+              applications with Firebase and cloud integrations.
+            </>,
+
+            <>
+              My focus is on writing clean, maintainable code that solves real
+              problems whether that&apos;s designing a DynamoDB schema for
+              efficient queries, optimising WebRTC latency to under 150ms, or
+              building a component library that a team can actually reuse.
+            </>,
+          ].map((content, i) => (
+            <div key={i}>
+              <p className="mb-4 leading-relaxed ">{content}</p>
+            </div>
+          ))}
+          {/* <p className="mb-4 leading-relaxed ">
+            Hi I’m <strong>Dheeraj Kumar Ravi Gowda</strong>. I’m a Full-Stack
             Developer with a Master of Science in Computer Science. I build
             clean, accessible, and responsive web and mobile experiences using
             React.js and React Native. I’m also growing my backend skills with
@@ -27,12 +54,12 @@ const About = () => {
           </p>
 
           <p className="mb-4 leading-relaxed ">
-            I’ve built production apps — an Expense Tracker, a Meal app and
-            multiple mobile projects — focused on performance, reusable
+            I’ve built production apps an Expense Tracker, a Meal app and
+            multiple mobile projects focused on performance, reusable
             components, and great UX. My toolset includes TypeScript, Expo,
             NativeWind/Tailwind, Firebase, and cloud services like AWS and
             Supabase.
-          </p>
+          </p> */}
 
           <ul className="mb-6 grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
             <li className="flex items-start">

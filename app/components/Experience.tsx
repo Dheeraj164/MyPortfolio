@@ -13,18 +13,18 @@ const jobList = [
       "Implemented form validations, error handling, and user-friendly workflows that enhanced the overall user experience.",
     ],
   },
-  {
-    Title: "Front-End Developer",
-    Organization: "6D Technologies",
-    Location: "Bengaluru",
-    From: "Aug 2021",
-    To: "Dec 2022",
-    Description: [
-      "Reworked the organization's website using Next.js, enhancing scalability and modernizing the UI, whichimproved user engagement",
-      "Implemented restricted access features to differentiate free vs. paid users, increasing subscription conversions.",
-      "Integrated payment processing during sign-up to support premium access, streamlining the user upgrade process",
-    ],
-  },
+  // {
+  //   Title: "Front-End Developer",
+  //   Organization: "6D Technologies",
+  //   Location: "Bengaluru",
+  //   From: "Aug 2021",
+  //   To: "Dec 2022",
+  //   Description: [
+  //     "Reworked the organization's website using Next.js, enhancing scalability and modernizing the UI, whichimproved user engagement",
+  //     "Implemented restricted access features to differentiate free vs. paid users, increasing subscription conversions.",
+  //     "Integrated payment processing during sign-up to support premium access, streamlining the user upgrade process",
+  //   ],
+  // },
   {
     Title: "Teaching Assistant and Student Tutor",
     Organization: "University of Central Oklahoma",

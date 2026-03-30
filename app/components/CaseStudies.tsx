@@ -15,15 +15,17 @@ interface CaseStudy {
 const caseStudies: CaseStudy[] = [
   {
     title: "Second Screen App",
-    description:
-      "A React Native mobile application that helps users manage daily expenses, track spending, and maintain financial records with an intuitive UI.",
+    description: `A real-time wireless screen extension system built with WebRTC and Electron.
+Streams a desktop display to any browser-based device in under 5 seconds,
+with under 150ms latency no cables, no drivers, no subscription required.`,
     image: SecondScreen,
     link: "/secondscreen",
   },
   {
     title: "Expense Tracker App",
-    description:
-      "A React Native mobile application that helps users manage daily expenses, track spending, and maintain financial records with an intuitive UI.",
+    description: `A fully serverless expense management platform on AWS Lambda, DynamoDB,
+Cognito, and CloudFront that scales automatically and costs under $1/month
+at rest. Built with Next.js on the frontend and zero traditional servers.`,
     image: ExpensesTracker,
     link: "/awsexpense",
   },
